@@ -1,24 +1,27 @@
 body {
-    font-family: "Roboto",sans-serif;
-    background-color: rgb(224, 224, 250);
+    font-family: "outfit";
+    background-color: hsl(220, 15%, 55%);
+    padding: 1rem;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100svh;
+gap: 2rem;
+text-align: center;
 }
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
 img {
+    display: block;
     object-fit: contain;
-    max-width: 400px;
-    max-height: 200px;
+    max-width: 100%;
     border-radius: 9px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-align-items: center;
-padding-block: 6rem;
-}
+
 
 section {
     display: flex;
@@ -26,9 +29,9 @@ section {
 align-items: center;
     border-radius: 1rem;
 background-color: white;
-max-width: 225px;
-height: 370px;
-text-align: center;
+max-width: 16rem;
+padding: 1rem;
+
 }
 
 article {
@@ -40,7 +43,7 @@ article {
 }
 
 .scan-qr-code {
-    font-size: small;
+    font-size: 1em;
     color: rgb(136, 123, 123);
 }
 
